@@ -1,0 +1,7 @@
+<h1>Purchase</h1>
+<% @purchases.each do |purchase|  %>
+<%= purchase.customer_name %>
+Price:  <%= purchase.price %>
+<%= link_to purchase.brew.blend_name, purchase.brew %>
+<br>
+<%end%>

@@ -40,7 +40,6 @@ class BrewsController < ApplicationController
 
     def strongest
         @strongest = Brew.strongest
-        byebug
     end 
  
 
